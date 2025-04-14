@@ -65,3 +65,10 @@ if analyze and ticker:
     with col8:
         st.markdown("### Reasoning")
         st.text_area("", value=data["reasoning"], height=200, key="reasoning")
+
+
+    if st.button("Clear Cache"):
+        st.cache_data.clear()
+        st.cache_resource.clear()
+        st.experimental_rerun()
+
