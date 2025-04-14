@@ -1,0 +1,13 @@
+alpaca-trade-api
+dotenv
+google-generativeai
+langchain-core
+matplotlib
+numpy
+pandas
+pydantic
+python-dotenv
+requests
+streamlit
+typing-extensions
+yfinance
